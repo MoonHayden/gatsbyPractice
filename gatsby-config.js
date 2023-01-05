@@ -28,5 +28,14 @@ module.exports = {
       },
     },
     "gatsby-plugin-mdx",
+    {
+      resolve: `gatsby-source-notion-api`,
+      options: {
+        token: "secret_696MzwD8Myz3yvePJN4UPjano9HGSDDAe8w5QGkWoCo",
+        databaseId: "a1d555bed5d349919fda5d239d752e52",
+        propsToFrontmatter: true,
+        lowerTitleLevel: true,
+      },
+    },
   ],
 };
